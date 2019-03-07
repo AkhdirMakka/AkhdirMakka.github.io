@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1280px;
+    height: 720px;
+    background: url(../images/background.png) no-repeat 0 0;
+    margin: 50px auto;
+	cursor: url(../images/hm01.png),auto;
+}
+
+.container>.timerl,
+.container>.timerl>.timer,
+.container>.scorel,
+.container>.scorel>.score{
+    font-size: 25px;
+    color: #333;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.container>.timerl{
+	margin-left: 400px;
+}
+.container>.scorel{
+    margin-left: 50px;
+}
+
+.container>.start{
+    width: 150px;;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background:linear-gradient(rgb(255,230,76), rgb(255,180,60));
+    border-radius: 17px;
+    border: none;
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    margin-left: -75px;
+    display: block;
+}
+
+.container>.rules{
+    width: 150px;;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    background:linear-gradient(rgb(255,230,76), rgb(255,180,60));
+    border-radius: 17px;
+    border: none;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -75px;
+    display: block;
+}
+
+.container>.rule{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 200px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.rule>p{
+    font-size: 20px;
+    line-height: 200%;
+    color: white;
+}
+
+.rule>a{
+    color: yellow;
+}
+
+.container>.mask{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 200px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.mask>h1{
+    font-size: 40px;
+    padding-top: 100px;
+    color:rgb(255,180,60);
+    text-shadow: 3px 3px 0 rgb(255,255,255);
+}
+
+h2{
+	color:white;
+}
+
+.mask>button{
+    width: 150px;;
+    line-height: 45px;
+    font-size: 20px;
+    color: white;
+    background:linear-gradient(rgb(0,210,219), rgb(0,100,180));
+    border-radius: 17px;
+    border: none;
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    margin-left: -75px;
+}
