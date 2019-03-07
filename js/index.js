@@ -1,4 +1,24 @@
 $(function () {
+	// 预加载
+	setTimeout(function() {  
+        // preload image  
+        new Image().src = "./images/empty.png";  
+		new Image().src = "./images/hit.png";  
+		new Image().src = "./images/nnh01.png";  
+		new Image().src = "./images/nnh02.png";  
+		new Image().src = "./images/nnh03.png";  
+		new Image().src = "./images/nnh04.png";  
+		new Image().src = "./images/nnh05.png";  
+		new Image().src = "./images/nnh06.png";  
+		new Image().src = "./images/ymm01.png";  
+		new Image().src = "./images/ymm02.png";  
+		new Image().src = "./images/ymm03.png";  
+		new Image().src = "./images/ymm04.png";  
+		new Image().src = "./images/ymm05.png";  
+		new Image().src = "./images/ymm06.png";  
+    }, 1000);  
+	
+	
     //1.监听游戏规则的点击
     $(".rules").click(function () {
         $(".rule").stop().fadeIn(100);
